@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  cursor: none;
+}
+
 * {
   margin: 0;
   padding: 0;

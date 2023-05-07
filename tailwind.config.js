@@ -4,9 +4,13 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      cursor: {
+        default: 'url(src\assets\cursor.png), default',
+        pointer: 'url(src\assets\cursor.png), pointer',
+      },
       colors: {
         primary: "#000000",
-        secondary: "#050816F",
+        secondary: "050816F",
         tertiary: "#151030",
         "black-100": "#000000",
         "black-200": "#000000",
