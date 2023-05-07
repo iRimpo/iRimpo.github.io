@@ -24,7 +24,7 @@ const Computers = () => {
 const ComputersCanvas = () => {
   return (
       <Canvas
-          frameLoop="demand"
+          frameloop="demand"
           shadows
           camera={{position: [20, 3, 5], fov: 25 }}
           gl={{ preserveDrawingBuffer: true }}>
@@ -34,8 +34,9 @@ const ComputersCanvas = () => {
                   maxPolarAngle={Math.PI / 2}
                   minPolarAngle={Math.PI / 2}
               />
-              <Computers />
+              {/* <Computers /> */}
           </Suspense>
+          <Computers />
           <Preload all />
       </Canvas>
   )
