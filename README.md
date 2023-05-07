@@ -1,5 +1,5 @@
 # iRimpo.github.io
-This is my 3D personal website that's made with Three/React.js + Tailwind CSS
+## This is my 3D personal website that's made with Three/React.js + Tailwind CSS
 
 ### Currently following online tutorials and utilizing ChatGPT to assist with this project.
 
