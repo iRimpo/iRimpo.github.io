@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState} from 'react';
+import { Suspense, useEffect, useState, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
@@ -30,6 +30,22 @@ const Computers = () => {
 }
 
 const ComputersCanvas = () => {
+  const [rotation, setRotation] = useState(0);
+  const intervalRef = useRef(null);
+  const controlsRef = useRef(null);
+
+  useEffect(() => {
+    intervalRef.current = setInterval(() => {
+      setRotation((prevRotation) => prevRotation + 0.01);
+    }, 16);
+
+    return () => clearInterval(intervalRef.current);
+  }, []);
+
+  const handleUserInput = () => {
+    clearInterval(intervalRef.current);
+  }
+
   return (
       <Canvas
           frameloop="demand"
@@ -38,13 +54,15 @@ const ComputersCanvas = () => {
           gl={{ preserveDrawingBuffer: true }}>
           <Suspense fallback={<CanvasLoader />}>
               <OrbitControls
+                  ref={controlsRef}
                   enableZoom={false}
                   maxPolarAngle={Math.PI / 2}
                   minPolarAngle={Math.PI / 2}
               />
-              <Computers />
+              <group rotation-y={rotation}>
+                <Computers />
+              </group>
           </Suspense>
-          {/* <Computers /> */}
           <Preload all />
       </Canvas>
   )
