@@ -7,9 +7,9 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
-    "build": "react-scripts build",
+    "build1": "react-scripts build",
     "dev": "vite",
-    "build": "vite build",
+    "build2": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
