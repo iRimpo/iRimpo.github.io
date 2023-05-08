@@ -5,6 +5,5 @@ https://irimpo.github.io/
 ### Currently following online tutorials and utilizing ChatGPT to assist with this project.
 
 # Work in Progress
-![alt text](https://cdn.discordapp.com/attachments/1096857111817896117/1104924012796190790/image.png)
-![alt text](https://media.discordapp.net/attachments/1096857111817896117/1104924359669325965/image.png)
+![alt text](https://media.discordapp.net/attachments/1096857111817896117/1104924643372040222/image.png?width=1260&height=619)
 
