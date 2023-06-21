@@ -2,8 +2,10 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas'
+import { AudioPlayer } from '../components';
 
 const Hero = () => {
+  
   return (
     <section className="relative w-full h-screen mx-auto bg-[#FCE44D]">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -15,6 +17,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}text-black`}>Hi, I'm <span className="text-black">Richard</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-black-100`}>A 1st year Computer Engineering Student <br className="sm:block hidden" /> @ Diablo Valley College</p>
+          <AudioPlayer />
         </div>
       </div>
       

@@ -1,7 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-
-import {About, Contact, Cursor, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-
+import {About, AudioPlayer, Contact, Cursor, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 function App () {
   return (
@@ -14,6 +12,7 @@ function App () {
           <Hero />
         </div>
         <About />
+        <AudioPlayer />
         <Experience />
         <Tech />
         <Works />
