@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
-import {About, AudioPlayer, Contact, Cursor, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import {About, Contact, Cursor, Experience, Feedbacks, Hero, Navbar, Playbutton, Tech, Works, StarsCanvas } from './components';
+
 
 function App () {
   return (
@@ -10,9 +11,9 @@ function App () {
           <Cursor />
           <Navbar />
           <Hero />
+          <Playbutton />
         </div>
         <About />
-        <AudioPlayer />
         <Experience />
         <Tech />
         <Works />
