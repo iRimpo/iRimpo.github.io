@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import PlayButton from './Playbutton';
 
 const Hero = () => {
   const handleButtonClick = (event) => {
@@ -21,13 +20,9 @@ const Hero = () => {
             Hi, I'm <span className="text-black">Richard</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-black-100`}>
-            A 1st year Computer Engineering Student
+            A 2nd year Computer Engineering Student
             <br className="sm:block hidden" /> @ Diablo Valley College
           </p>
-          <h2 className={`${styles.playButtonText}text-black`}>
-            ~
-            <PlayButton onClick={handleButtonClick} />
-          </h2>
         </div>
       </div>
 

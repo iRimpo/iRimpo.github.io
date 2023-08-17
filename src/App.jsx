@@ -11,7 +11,6 @@ function App () {
           <Cursor />
           <Navbar />
           <Hero />
-          <Playbutton />
         </div>
         <About />
         <Experience />
