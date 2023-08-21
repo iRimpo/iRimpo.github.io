@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] cursor-pointer flex">Richard Azucenas &nbsp;<span className="sm:block hidden"> | CSE @DVC </span></p>
+          <p className="text-white text-[18px] cursor-pointer flex">Richard Azucenas &nbsp;<span className="sm:block hidden"> | CSE @DVC &nbsp;</span><span className="text-[#FCE44D] font-bold"> v1.0,&nbsp;</span><span className="sm:block hidden text-[#FCE44D] text-[18px]">Updated: 08/20/2023</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (

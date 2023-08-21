@@ -12,18 +12,18 @@ const ServiceCard = ({ index, title, icon}) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full p-[1px] rounded-[20px] shadow-card"
       >
         <div
           options={{
-            max: 45,
-            scale: 1,
+            max: 40,
+            scale: 1.15,
             speed: 450
           }}
-          className="bg-teriary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-[#FCE44D] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
+          <h3 className="text-black text-[20px] font-bold text-center">{title}</h3>
         </div>
 
       </motion.div>
@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Computer Engineering Student whose looking for opportunities to grow my tech stack.
+        I'm a Computer Engineer Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). I'm learning C++ and Python as of now.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

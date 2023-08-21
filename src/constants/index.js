@@ -23,6 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    cvchs,
+    gdsc0,
+    dls,
+    mathnasium,
+    python,
+    cpp,
+    website,
+    signsage,
+    richard
   } from "../assets";
   
   export const navLinks = [
@@ -35,31 +44,39 @@ import {
       title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "projects",
+      title: "Projects",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "W.I.P Media",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "W.I.P Media",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "W.I.P Media",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "W.I.P Media",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,16 +90,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,10 +102,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -104,67 +109,79 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "eSports President",
+      company_name: "Clayton Valley Charter High School",
+      icon: cvchs,
+      iconBg: "#ffffff",
+      date: "Aug 2021 - Jun 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lead and oversaw all aspects of the eSports organization, leveraging experience as a successful player and collaborator to develop and execute strategic plans that drive team success, enhance player performance, and elevate the organization's standing in the competitive landscape.",
+        "Utilized firsthand understanding of player dynamics and team dynamics to foster an environment of collaboration, effective communication, and synergy. Work closely with players, coaches, and staff to optimize team strategies, improve player skills, and ensure a cohesive and high-performing roster.",
+        "Demonstrated a history of excellence as a former player, having contributed to a team that achieved a top 5 ranking in the league. Leverage this experience to provide valuable insights, mentorship, and guidance to current players, helping them overcome challenges and achieve their maximum potential.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Junior Developer",
+      company_name: "Google Developer Student Club",
+      icon: gdsc0,
+      iconBg: "#ffffff",
+      date: "Sept 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a Discord bot that accesses the Notion Database to send deadline reminders.",
+        "Worked on the Notion API Department.",
+        "Developed parse functions that utilized a Notion Page's Database.",
+        "Participated in code reviews and listened to constructive feedback from other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Marketing Director",
+      company_name: "Deep Learning Society",
+      icon: dls,
+      iconBg: "#000000",
+      date: "Feb 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed all digital graphics and managed the social media account.",
+        "Brainstormed unique and creative branding ideas that contributed to its growth.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Creative Designer",
+      company_name: "Google Developer Student Club",
+      icon: gdsc0,
+      iconBg: "#ffffff",
+      date: "Mar 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
+        "Contributed to design and marketing related workshops and affairs.",
+        "Helped organize Viking Hacks 2023 through various methods.",
+      ],
+    },
+    {
+      title: "Mathematics Instructor",
+      company_name: "Mathnasium",
+      icon: mathnasium,
+      iconBg: "#11100e",
+      date: "Jul 2023 - Present",
+      points: [
+        "Deliver personalized math instruction to students, catering to their unique learning needs and skill levels. Utilize Mathnasium's curriculum and teaching methodologies to effectively explain mathematical concepts, problem-solving strategies, and techniques.",
+        "Foster a positive and enthusiastic learning atmosphere by establishing rapport with students and maintaining a supportive attitude. Employ creative teaching methods, real-life examples, and interactive activities to keep students engaged and motivated to excel in math.",
+      ],
+    },
+    {
+      title: "Vice President of Creative Design",
+      company_name: "Google Developer Student Club",
+      icon: gdsc0,
+      iconBg: "#ffffff",
+      date: "Aug 2023 - Present",
+      points: [
+        "A part of the executive Google Developer Student Club officer team.",
+        "Create scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
+        "In charge of reinforcing brand guidelines and marketing materials.",
+        "Contribute to design and marketing related workshops and affairs.",
       ],
     },
   ];
@@ -198,67 +215,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D Personal Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The website you're currently on! It utilizes Three.js, React.js, and Tailwind CSS. I'm using a full YouTube tutorial of Three.js and ChatGPT to create this.",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwind-css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: website,
+      source_code_link: "https://github.com/iRimpo/iRimpo.github.io",
     },
     {
-      name: "Job IT",
+      name: "Notion Deadline Reminder Bot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Discord Bot that enables users to fetch and notify a Notion Page's deadlines to a Discord server. Fun fact, this was my first ever real project. :D",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "notion-api",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gdsc0,
+      source_code_link: "https://github.com/pluffpenguin/Notion-Deadline-Reminder-Bot",
     },
     {
-      name: "Trip Guide",
+      name: "Sign Sage",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Project submission for UC Berkeley AI Hackathon. It utilizes CV in order to detect an ASL word and then convert it into text form. I worked on the back-end by utilizing a full YouTube tutorial of action recognition and ChatGPT.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "lstm",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: signsage,
+      source_code_link: "https://github.com/iRimpo/calhacks2023",
+    },
+    {
+      name: "More to come!",
+      description:
+        "Yippee!",
+      tags: [
+        {
+          name: " ",
+          color: "blue-text-gradient",
+        },
+        {
+          name: " ",
+          color: "green-text-gradient",
+        },
+        {
+          name: " ",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: git,
+      source_code_link: "https://google.com",
     },
   ];
   

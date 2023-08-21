@@ -12,11 +12,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
-          scale: 1,
+          max: 30,
+          scale: 1.15,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl w-[400px]  sm:w[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl w-[360px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -86,4 +86,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
