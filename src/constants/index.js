@@ -43,7 +43,8 @@ import {
     shuffle,
     party,
     cant,
-    down
+    down,
+    presenai
 
   } from "../assets";
   
@@ -327,6 +328,27 @@ import {
       ],
       image: signsage,
       source_code_link: "https://github.com/iRimpo/calhacks2023",
+    },
+    {
+      name: "PresenAI",
+      description:
+        "Project submission for CalHacks 10.0. PresenAI uses Hume AI to analyze the presenter's facial expressions and speech language during a video presentation. The AI provides real-time feedback on how to enhance delivery, engagement, and emotional connection with the audience.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "green-text-gradient",
+        },
+        {
+          name: "hume-ai",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: presenai,
+      source_code_link: "https://github.com/iRimpo/PresenAI",
     },
     {
       name: "More to come!",

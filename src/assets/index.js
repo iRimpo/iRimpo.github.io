@@ -52,6 +52,7 @@ import shuffle from "./shuffle.mov";
 import party from "./party.mp4";
 import cant from "./cant.mp4";
 import down from "./down.mp4";
+import presenai from "./presenai.jpg";
 
 
 export {
@@ -103,5 +104,6 @@ export {
   shuffle,
   party,
   cant,
-  down
+  down,
+  presenai
 };
