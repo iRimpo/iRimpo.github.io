@@ -8,7 +8,9 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({ index, videoSrc }) => {
+import aboutImage from './me.jpg';
+
+const VideoCard = ({ index, videoSrc }) => {
   // State to manage mute/unmute
   const [isMuted, setIsMuted] = useState(true);
   // State to manage hover state
@@ -74,26 +76,37 @@ const ServiceCard = ({ index, videoSrc }) => {
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
-      </motion.div>
-
-      <motion.p
-        variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a Computer Science Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). Currently working on Machine Learning Projects with Python, and looking for any opportunities to learn. My goal is to inspire others to pursue their passion even if it seems undoable!
-      </motion.p>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+    <div className="flex flex-col">
+      <div className="md:flex md:flex-row">
+        {/* Text content on the left */}
+        <motion.div className="flex-1" variants={textVariant()}>
+          <motion.h2 className={styles.sectionHeadText}>
+            Overview
+          </motion.h2>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+            I'm a Computer Science Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). Currently working on Machine Learning Projects with Python, and looking for any opportunities to learn. My goal is to inspire others to pursue their passion even if it seems undoable!
+          </motion.p>
+        </motion.div>
+        
+        {/* Image on the right */}
+        <div className="flex-1 flex justify-center items-center">
+          <img src={aboutImage} alt="About" className="max-w-md rounded-lg shadow-xl" />
+        </div>
       </div>
 
-    </>
-  )
+      {/* VideoCard components below the text and image */}
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
+        {services.map((service, index) => (
+          <VideoCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
+    </div>
+  );
 }
+
+
 
 export default SectionWrapper(About, "about")

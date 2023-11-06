@@ -61,6 +61,25 @@ import {
       title: "Projects",
     },
   ];
+
+  const pics = [
+    {
+      title: "Dashstar",
+      icon: shuffle,
+    },
+    {
+      title: "Party Rock",
+      icon: party,
+    },
+    {
+      title: "Can't Take My Eyes Off You",
+      icon: cant,
+    },
+    {
+      title: "Timber",
+      videoSrc: down,
+    },
+  ];
   
   const services = [
     {
