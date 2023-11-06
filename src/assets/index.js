@@ -48,6 +48,8 @@ import gdscvp from "./gdscvp.png";
 import svs from "./svs.png";
 import tiktok from "./tiktok.png";
 
+import shuffle from "./shuffle.mov";
+
 
 export {
   logo,
@@ -94,5 +96,6 @@ export {
   math,
   gdscvp,
   svs,
-  tiktok
+  tiktok,
+  shuffle
 };

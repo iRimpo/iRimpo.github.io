@@ -39,7 +39,8 @@ import {
     math,
     gdscvp,
     svs,
-    tiktok
+    tiktok,
+    shuffle
 
   } from "../assets";
   
@@ -60,21 +61,9 @@ import {
   
   const services = [
     {
-      title: "W.I.P Media",
-      icon: web,
-    },
-    {
-      title: "W.I.P Media",
-      icon: mobile,
-    },
-    {
-      title: "W.I.P Media",
-      icon: backend,
-    },
-    {
-      title: "W.I.P Media",
-      icon: creator,
-    },
+      title: "Shuffling",
+      videoSrc: shuffle,
+    }
   ];
   
   const technologies = [
