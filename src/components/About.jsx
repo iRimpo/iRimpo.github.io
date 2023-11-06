@@ -94,7 +94,7 @@ const About = () => {
         {/* Image on the right */}
         <div className="flex-1 flex justify-center items-center">
         <motion.div className="flex-1 flex justify-center items-center"
-          variants={fadeIn("", "", 0.2, 1)}
+          variants={fadeIn("", "", 0.2, 1.5)}
         >
           <img src={aboutImage} alt="About" className="max-w-md rounded-lg shadow-xl" />
         </motion.div>
