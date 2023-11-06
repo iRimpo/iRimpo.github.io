@@ -40,7 +40,10 @@ import {
     gdscvp,
     svs,
     tiktok,
-    shuffle
+    shuffle,
+    party,
+    cant,
+    down
 
   } from "../assets";
   
@@ -61,9 +64,21 @@ import {
   
   const services = [
     {
-      title: "Shuffling",
+      title: "Dashstar",
       videoSrc: shuffle,
-    }
+    },
+    {
+      title: "Party Rock",
+      videoSrc: party,
+    },
+    {
+      title: "Can't Take My Eyes Off You",
+      videoSrc: cant,
+    },
+    {
+      title: "Timber",
+      videoSrc: down,
+    },
   ];
   
   const technologies = [

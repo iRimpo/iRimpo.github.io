@@ -49,6 +49,9 @@ import svs from "./svs.png";
 import tiktok from "./tiktok.png";
 
 import shuffle from "./shuffle.mov";
+import party from "./party.mp4";
+import cant from "./cant.mp4";
+import down from "./down.mp4";
 
 
 export {
@@ -97,5 +100,8 @@ export {
   gdscvp,
   svs,
   tiktok,
-  shuffle
+  shuffle,
+  party,
+  cant,
+  down
 };
