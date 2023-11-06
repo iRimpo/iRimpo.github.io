@@ -44,7 +44,9 @@ import notion from "./notion.png";
 import dlsp from "./dlsp.jpg"
 import gdsccd from "./gdsccd.png";
 import math from "./math.png";
-import gdscvp from "./gdscvp.png"
+import gdscvp from "./gdscvp.png";
+import svs from "./svs.png";
+import tiktok from "./tiktok.png";
 
 
 export {
@@ -90,5 +92,7 @@ export {
   dlsp,
   gdsccd,
   math,
-  gdscvp
+  gdscvp,
+  svs,
+  tiktok
 };

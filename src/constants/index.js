@@ -37,7 +37,9 @@ import {
     dlsp,
     gdsccd,
     math,
-    gdscvp
+    gdscvp,
+    svs,
+    tiktok
 
   } from "../assets";
   
@@ -144,6 +146,19 @@ import {
         "Worked on the Notion API Department.",
         "Developed parse functions that utilized a Notion Page's Database.",
         "Participated in code reviews and listened to constructive feedback from other developers.",
+      ],
+    },
+    {
+      title: "Content Creator",
+      company_name: "@Sunvalley Shufflerz - TikTok",
+      icon: tiktok,
+      iconBg: "#000000",
+      proj: svs,
+      date: "Jan 2023 - Present",
+      points: [
+        "Accumulated over 1 million views on TikTok through captivating shuffle dance content.",
+        "Founded a group dedicated to promoting shuffle dance and fostering a global community of dance enthusiasts.",
+        "Promoted a platform for sharing creativity, passion, social engagement, and positivity through thoughtful editing and practice in dancing."
       ],
     },
     {
