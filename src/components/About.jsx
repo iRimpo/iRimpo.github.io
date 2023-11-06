@@ -35,15 +35,14 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className ={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Computer Engineer Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). I'm learning C++ and Python as of now.
+        I'm a Computer Science Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). I'm learning C++ and Python as of now.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

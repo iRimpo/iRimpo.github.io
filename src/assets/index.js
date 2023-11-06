@@ -39,6 +39,14 @@ import website from "./website.png";
 import signsage from "./signsage.png";
 import richard from "./richard.jpg";
 
+import esports from "./esports.jpg";
+import notion from "./notion.png";
+import dlsp from "./dlsp.jpg"
+import gdsccd from "./gdsccd.png";
+import math from "./math.png";
+import gdscvp from "./gdscvp.png"
+
+
 export {
   logo,
   backend,
@@ -76,5 +84,11 @@ export {
   cpp,
   website,
   signsage,
-  richard
+  richard,
+  esports,
+  notion,
+  dlsp,
+  gdsccd,
+  math,
+  gdscvp
 };

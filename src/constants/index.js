@@ -31,7 +31,14 @@ import {
     cpp,
     website,
     signsage,
-    richard
+    richard,
+    esports,
+    notion,
+    dlsp,
+    gdsccd,
+    math,
+    gdscvp
+
   } from "../assets";
   
   export const navLinks = [
@@ -117,6 +124,7 @@ import {
       company_name: "Clayton Valley Charter High School",
       icon: cvchs,
       iconBg: "#ffffff",
+      proj: esports,
       date: "Aug 2021 - Jun 2022",
       points: [
         "Lead and oversaw all aspects of the eSports organization, leveraging experience as a successful player and collaborator to develop and execute strategic plans that drive team success, enhance player performance, and elevate the organization's standing in the competitive landscape.",
@@ -129,6 +137,7 @@ import {
       company_name: "Google Developer Student Club",
       icon: gdsc0,
       iconBg: "#ffffff",
+      proj: notion,
       date: "Sept 2022 - Jan 2023",
       points: [
         "Developed a Discord bot that accesses the Notion Database to send deadline reminders.",
@@ -142,7 +151,8 @@ import {
       company_name: "Deep Learning Society",
       icon: dls,
       iconBg: "#000000",
-      date: "Feb 2023 - May 2023",
+      proj: dlsp,
+      date: "Feb 2023 - Present",
       points: [
         "Designed all digital graphics and managed the social media account.",
         "Brainstormed unique and creative branding ideas that contributed to its growth.",
@@ -153,6 +163,7 @@ import {
       company_name: "Google Developer Student Club",
       icon: gdsc0,
       iconBg: "#ffffff",
+      proj: gdsccd,
       date: "Mar 2023 - May 2023",
       points: [
         "Created scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
@@ -165,6 +176,7 @@ import {
       company_name: "Mathnasium",
       icon: mathnasium,
       iconBg: "#11100e",
+      proj: math,
       date: "Jul 2023 - Present",
       points: [
         "Deliver personalized math instruction to students, catering to their unique learning needs and skill levels. Utilize Mathnasium's curriculum and teaching methodologies to effectively explain mathematical concepts, problem-solving strategies, and techniques.",
@@ -176,6 +188,7 @@ import {
       company_name: "Google Developer Student Club",
       icon: gdsc0,
       iconBg: "#ffffff",
+      proj: gdscvp,
       date: "Aug 2023 - Present",
       points: [
         "A part of the executive Google Developer Student Club officer team.",
