@@ -44,7 +44,9 @@ import {
     party,
     cant,
     down,
-    presenai
+    presenai,
+    lbnl,
+    lbnllab
 
   } from "../assets";
   
@@ -234,6 +236,20 @@ import {
         "Create scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
         "In charge of reinforcing brand guidelines and marketing materials.",
         "Contribute to design and marketing related workshops and affairs.",
+      ],
+    },
+    {
+      title: "Operations/Systems Intern",
+      company_name: "Lawrence Berkeley National Laboratory",
+      icon: lbnl,
+      iconBg: "#ffffff",
+      proj: lbnllab,
+      date: "Starting June 2024",
+      points: [
+        "Energy Management Assessment of a Research Building Automation and Networks under Mark Friedrich.",
+        "Perform assigned tasks of an Energy Management Engineer.",
+        "Assess the inventory of the energy management control system for a critical researcher facility, such that it accurately reflects the current information systems.",
+        "Familiarize with the energy management system interactions, and current field configuration.",
       ],
     },
   ];

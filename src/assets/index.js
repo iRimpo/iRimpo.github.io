@@ -47,6 +47,8 @@ import math from "./math.png";
 import gdscvp from "./gdscvp.png";
 import svs from "./svs.png";
 import tiktok from "./tiktok.png";
+import lbnl from "./lbnl.png";
+import lbnllab from "./lbnllab.jpg";
 
 import shuffle from "./shuffle.mov";
 import party from "./party.mp4";
@@ -105,5 +107,7 @@ export {
   party,
   cant,
   down,
-  presenai
+  presenai,
+  lbnl,
+  lbnllab,
 };
