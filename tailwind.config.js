@@ -9,12 +9,12 @@ module.exports = {
         pointer: 'url(src\assets\cursor.png), pointer',
       },
       colors: {
-        primary: "#000000",
+        primary: "#FFFFFF",
         secondary: "050816F",
         tertiary: "#151030",
-        "black-100": "#000000",
-        "black-200": "#000000",
-        "white-100": "#f3f3f3",
+        "black-100": "#FFFFFF",
+        "black-200": "#FFFFFF",
+        "white-100": "#FFFFFF",
         yellow: "FCE44D"
       },
       boxShadow: {

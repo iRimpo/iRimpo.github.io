@@ -85,10 +85,11 @@ const About = () => {
           </motion.h2>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            className="mt-4 text-secondary text-[22px] max-w-3xl leading-[30px] font-black text-black"
           >
-            I'm a Computer Science Student studying at Diablo Valley College in Pleasant Hill, CA. I'm currently expanding my techstack by working on different projects (such as this website). Currently working on Machine Learning Projects with Python, and looking for any opportunities to learn. My goal is to inspire others to pursue their passion even if it seems undoable!
+            Hi! I'm a Data Science Student who loves to learn new things and support others when they need it. The main languages I work with are: Python, JavaScript, Java, and C++. My goal is to inspire others to pursue their passion even if it seems undoable!
           </motion.p>
+          
         </motion.div>
         
         {/* Image on the right */}
@@ -102,11 +103,11 @@ const About = () => {
       </div>
 
       {/* VideoCard components below the text and image */}
-      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
+      {/* <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
           <VideoCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

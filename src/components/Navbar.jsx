@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-black`}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link
@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] cursor-pointer flex">Richard Azucenas &nbsp;<span className="sm:block hidden"> | CS @DVC &nbsp;</span><span className="sm:block hidden text-[#FCE44D] text-[18px]">Updated: 3/4/2024</span></p>
+          <p className="text-white text-[20px] cursor-pointer flex">Richard Azucenas &nbsp;<span className="sm:block hidden"> | DS @ Cal &nbsp;</span><span className="sm:block hidden text-[18px]"></span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
@@ -31,9 +31,9 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title
-                  ? "text-white"
+                  ? "text-black"
                   : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-blue text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>

@@ -148,18 +148,82 @@ import {
   
   const experiences = [
     {
-      title: "eSports President",
-      company_name: "Clayton Valley Charter High School",
+      title: "Cybersecurity Controls Intern",
+      company_name: "Lawrence Berkeley National Laboratory",
+      icon: lbnl,
+      iconBg: "#ffffff",
+      proj: lbnllab,
+      date: "Starting June 2024",
+      points: [
+        "Increased efficiency of tracking energy management systems for 1,000+ controllers significantly by developing an interactive automated network diagrammer using Python libraries across 70+ buildings.",
+        "Enabled engineers to visualize complex network relationships between servers, buildings, and controllers by implementing nodes and edges that relay critical information, such as serial numbers, and IP Addresses.",
+        "Decrypted 5,000+ obscure location values from databases into usable building numbers for accurate diagramming by analyzing patterns in control system database reports.",
+        "Proposed plans for a secure SaaS deployment and the conceptual idea of using the commericial product 'Nozomi' for facilities engineers as a result from the deployment of this project.",
+      ],
+    },
+    {
+      title: "Software Development Intern",
+      company_name: "Lumira Solutions",
+      icon: "",
+      iconBg: "#ffffff",
+      proj: "",
+      date: "Starting June 2024",
+      points: [
+        "Accomplished learning about workflows to automate business processes, resulting in a deeper understanding of automation techniques by studying various methods for enhancing productivity.",
+        "Researched automated workflows like Zapier, resulting in an understanding of how to integrate user interfaces, data tables, and logic, by exploring the capabilities of automation tools to automate diverse tasks and processes.",
+      ],
+    },
+    {
+      title: "Program Manager",
+      company_name: "PlayVS - Clayton Valley Charter High School",
       icon: cvchs,
       iconBg: "#ffffff",
       proj: esports,
-      date: "Aug 2021 - Jun 2022",
+      date: "Aug 2020 - Jun 2022",
       points: [
-        "Lead and oversaw all aspects of the eSports organization, leveraging experience as a successful player and collaborator to develop and execute strategic plans that drive team success, enhance player performance, and elevate the organization's standing in the competitive landscape.",
-        "Utilized firsthand understanding of player dynamics and team dynamics to foster an environment of collaboration, effective communication, and synergy. Work closely with players, coaches, and staff to optimize team strategies, improve player skills, and ensure a cohesive and high-performing roster.",
-        "Demonstrated a history of excellence as a former player, having contributed to a team that achieved a top 5 ranking in the league. Leverage this experience to provide valuable insights, mentorship, and guidance to current players, helping them overcome challenges and achieve their maximum potential.",
+        "Managed the eSports Program, leading to a #1 ranking in the Youth Pacific Region Championships in subsequent years by laying the foundation and implementing program structure.",
+        "Led and coordinated 60+ meetings, practice sessions, and match reviews- driving a 70%+ win rate across varsity teams by utilizing project management techniques and fostering team collaboration.",
+        "Conducted data-driven analysis of individual player performance to identify improvement opportunities by applying psychological insights to develop targeted development plans and performance metrics.",
       ],
     },
+    {
+      title: "Mathematics Instructor",
+      company_name: "Mathnasium",
+      icon: mathnasium,
+      iconBg: "#11100e",
+      proj: math,
+      date: "Jul 2023 - Present",
+      points: [
+        "Deliver personalized math instruction to students, catering to their unique learning needs and skill levels. Utilize Mathnasium's curriculum and teaching methodologies to effectively explain mathematical concepts, problem-solving strategies, and techniques.",
+        "Foster a positive and enthusiastic learning atmosphere by establishing rapport with students and maintaining a supportive attitude. Employ creative teaching methods, real-life examples, and interactive activities to keep students engaged and motivated to excel in math.",
+      ],
+    },
+  ];
+
+  const educations = [
+    {
+      title: "University of California, Berkeley",
+      company_name: "Data Science, Bachelors of Arts Degree",
+      icon: "",
+      iconBg: "#ffffff",
+      proj: "",
+      date: "Graduating 2026",
+      points: [
+        ],
+    },
+    {
+      title: "Diablo Valley College",
+      company_name: "Computer Science, Associates Degree",
+      icon: "",
+      iconBg: "#ffffff",
+      proj: "",
+      date: "Aug 2022 - May 2024",
+      points: [
+        ],
+    }
+  ];
+
+  const clubs = [
     {
       title: "Junior Developer",
       company_name: "Google Developer Student Club",
@@ -168,10 +232,8 @@ import {
       proj: notion,
       date: "Sept 2022 - Jan 2023",
       points: [
-        "Developed a Discord bot that accesses the Notion Database to send deadline reminders.",
-        "Worked on the Notion API Department.",
-        "Developed parse functions that utilized a Notion Page's Database.",
-        "Participated in code reviews and listened to constructive feedback from other developers.",
+        "Co-developed a Discord bot using JavaScript and Node.js that connects with Notion's API to fetch deadlines and sends automated reminder messages to users on Discord for Google Developer Student Club.",
+        "Worked in the Notion API department to create functions to fetch deadlines and other information from the Notion database, enhancing the integration between Notion and Discord for seamless information retrieval."
       ],
     },
     {
@@ -185,6 +247,20 @@ import {
         "Accumulated over 1 million views on TikTok through captivating shuffle dance content.",
         "Founded a group dedicated to promoting shuffle dance and fostering a global community of dance enthusiasts.",
         "Promoted a platform for sharing creativity, passion, social engagement, and positivity through thoughtful editing and practice in dancing."
+      ],
+    },
+    {
+      title: "Vice President of Creative Design",
+      company_name: "Google Developer Student Club",
+      icon: gdsc0,
+      iconBg: "#ffffff",
+      proj: gdscvp,
+      date: "Aug 2023 - Present",
+      points: [
+        "A part of the executive Google Developer Student Club officer team.",
+        "Create scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
+        "In charge of reinforcing brand guidelines and marketing materials.",
+        "Contribute to design and marketing related workshops and affairs.",
       ],
     },
     {
@@ -210,46 +286,6 @@ import {
         "Created scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
         "Contributed to design and marketing related workshops and affairs.",
         "Helped organize Viking Hacks 2023 through various methods.",
-      ],
-    },
-    {
-      title: "Mathematics Instructor",
-      company_name: "Mathnasium",
-      icon: mathnasium,
-      iconBg: "#11100e",
-      proj: math,
-      date: "Jul 2023 - Present",
-      points: [
-        "Deliver personalized math instruction to students, catering to their unique learning needs and skill levels. Utilize Mathnasium's curriculum and teaching methodologies to effectively explain mathematical concepts, problem-solving strategies, and techniques.",
-        "Foster a positive and enthusiastic learning atmosphere by establishing rapport with students and maintaining a supportive attitude. Employ creative teaching methods, real-life examples, and interactive activities to keep students engaged and motivated to excel in math.",
-      ],
-    },
-    {
-      title: "Vice President of Creative Design",
-      company_name: "Google Developer Student Club",
-      icon: gdsc0,
-      iconBg: "#ffffff",
-      proj: gdscvp,
-      date: "Aug 2023 - Present",
-      points: [
-        "A part of the executive Google Developer Student Club officer team.",
-        "Create scalable social media posts, presentation slides, shirt designs, and any other design-related media.",
-        "In charge of reinforcing brand guidelines and marketing materials.",
-        "Contribute to design and marketing related workshops and affairs.",
-      ],
-    },
-    {
-      title: "Operations/Systems Intern",
-      company_name: "Lawrence Berkeley National Laboratory",
-      icon: lbnl,
-      iconBg: "#ffffff",
-      proj: lbnllab,
-      date: "Starting June 2024",
-      points: [
-        "Energy Management Assessment of a Research Building Automation and Networks under Mark Friedrich.",
-        "Perform assigned tasks of an Energy Management Engineer.",
-        "Assess the inventory of the energy management control system for a critical researcher facility, such that it accurately reflects the current information systems.",
-        "Familiarize with the energy management system interactions, and current field configuration.",
       ],
     },
   ];
@@ -367,16 +403,16 @@ import {
       source_code_link: "https://github.com/iRimpo/PresenAI",
     },
     {
-      name: "More to come!",
+      name: "EMS Network Diagrammer",
       description:
-        "Yippee!",
+        "Developed Python scripts using PyVis and Pandas to convert CSV data into interactive network diagrams. Implemented data cleaning functions to accurately parse data from various energy management system reports, ensuring reliability in visualizations. Presented the project to the engineering department, the cybersecurity division, and WD&E Interns at LBNL.!",
       tags: [
         {
-          name: " ",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: " ",
+          name: "PyVis",
           color: "green-text-gradient",
         },
         {
@@ -389,4 +425,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations, clubs };
